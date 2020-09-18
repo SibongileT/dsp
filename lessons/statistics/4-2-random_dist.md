@@ -6,16 +6,18 @@ import numpy as np
 randoms = np.random.random(1000)
 ```
 ---
-**Plot the PMF:** When you try and plot the random variable nothing shows up on the plot because all the probabilities are the same.  
+**Plot the PMF:**  
 ```python
 pmf = thinkstats2.Pmf(randoms)
-thinkplot.hist(pmf)
+thinkplot.Pmf(pmf, linewidth=0.1)
+thinkplot.Show(xlabel='Random', ylabel='CDF')
 ```
----
+The lines plotted on the PMF here are all of the same height since they all have the same probability of occurring.
+___
 **Plot the CDF**
 ```python
 cdf = thinkstats2.Cdf(randoms)
 thinkplot.Cdf(cdf)
-thinkplot.Show(xlabel='weeks', ylabel='CDF')
+thinkplot.Show(xlabel='Random', ylabel='CDF')
 ```
-The distribution is uniform because when it is plotted it appears as almost a straight line  
+The distribution is uniform because when it is plotted it appears as almost a straight line.
