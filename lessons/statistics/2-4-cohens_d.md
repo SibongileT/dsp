@@ -24,4 +24,4 @@ d = diff / math.sqrt(pooled_var)
 -0.08867292707260174
 ```
 ___
-**On average it seems as though while the first pregancy is slightly longer than the others the first baby is slightly lighter than others.**
+**On average it seems as though while the first pregnancy is slightly longer than the others the first baby is slightly lighter than others.**
